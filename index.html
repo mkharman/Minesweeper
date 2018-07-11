@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <button class="newGameBtn" onclick="initGame()">New Game</button>
+        <p>
+            <span id="seconds">00</span>:
+            <span id="tens">00</span>
+        </p>
+        <br>
+        <div class="difficultySection">
+            <input type="radio" name="difficulty" value="4">
+            <span class="radioTxt">(Easy) 4 * 4</span>
+            <br>
+            <input type="radio" name="difficulty" value="6">
+            <span class="radioTxt">(Medium) 6 * 6</span>
+            <br>
+            <input type="radio" name="difficulty" value="8">
+            <span class="radioTxt">(Hard) 8 * 8</span>
+        </div>
+
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/gamelogic.js"></script>
+</body>
+
+</html>
