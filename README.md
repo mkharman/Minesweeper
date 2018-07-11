@@ -1,2 +1,2 @@
 # Minesweeper
-Minesweeper project for implementing Vanilla JS, CSS &amp; HTML
+Minesweeper game project for implementing and combining Vanilla JS, CSS &amp; HTML
